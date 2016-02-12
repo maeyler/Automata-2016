@@ -4,7 +4,7 @@ import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Container;
 
-public class odev_DK implements Animator {
+public class derya_odev1 implements Animator {
     final static double DELTA = Math.PI/30; //one turn = 100 ticks 
     final static int A = MX-50, B = MY-50, D = 30;
     final Container pan = new Panel();
