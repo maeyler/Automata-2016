@@ -30,7 +30,7 @@ public class ahmetyazici implements Animator {
         return pan;
     }
     public String description() {
-        return "Renkli Çarkýfelek";
+        return "Renkli Ã‡arkÄ±felek";
     }
     public String author() {
         return "Ahmet YAZICI";

@@ -49,7 +49,7 @@ public class NurdanAlbas implements Animator {
         return "Colour Fading";
     }
     public String author() {
-        return "Nurdan Albaş";
+        return "Nurdan AlbaÅŸ";
     }
    
    class Panel extends javax.swing.JPanel { //drawing

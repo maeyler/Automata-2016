@@ -26,10 +26,10 @@ public class barbaroskaradag implements Animator {
         return pan;
     }
     public String description() {
-        return "YARIÞ YAPAN RENKLÝ KUTULAR";
+        return "YARIÅž YAPAN RENKLÄ° KUTULAR";
     }
     public String author() {
-        return "Barbaros H. KARADAÐ";
+        return "Barbaros H. KARADAÄž";
     }
     public void sonuclar(Graphics g,Font f)
     {
