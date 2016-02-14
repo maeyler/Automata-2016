@@ -26,17 +26,17 @@ public class barbaroskaradag implements Animator {
         return pan;
     }
     public String description() {
-        return "YARIŞ YAPAN RENKLİ KUTULAR";
+        return "Yaris yapan kutular";
     }
     public String author() {
-        return "Barbaros H. KARADAĞ";
+        return "Barbaros H. KARADAG";
     }
     public void sonuclar(Graphics g,Font f)
     {
         f = new Font ("Arial", 1, 10);
         g.setColor(Color.DARK_GRAY);
         g.setFont(f);
-        g.drawString("Sonuçlar   :  "+ad[0]+" : "+sonuc[0]+" | "+
+        g.drawString("Sonuclar   :  "+ad[0]+" : "+sonuc[0]+" | "+
                 ad[1]+" : "+sonuc[1]+" | "+
                 ad[2]+" : "+sonuc[2]+" | "+
                 ad[3]+" : "+sonuc[3]+" | "+
