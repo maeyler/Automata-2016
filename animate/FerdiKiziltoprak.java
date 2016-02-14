@@ -29,7 +29,7 @@ public class FerdiKiziltoprak implements Animator {
     }
 
     public String author() {
-        return "Ferdi Kızıltoprak";
+        return "Ferdi Kiziltoprak";
     }
     
     class Panel extends javax.swing.JPanel { //drawing
