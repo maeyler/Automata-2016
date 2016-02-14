@@ -2,43 +2,37 @@ package animate;
 
 import java.awt.Color;
 import java.awt.Container;
-import java.awt.Font;
-import javax.swing.JLabel;
+import java.awt.Graphics;
+import java.awt.Point;
 
 public class Burhan_Emanetoglu implements Animator {
 
-    final JLabel lab = new JLabel();
-    int counter = 0;
-
-    Burhan_Emanetoglu() {
-        lab.setForeground(Color.DARK_GRAY);
-         lab.setLocation(80,80);
-        lab.setFont(new Font("Serif", Font.BOLD, 100));
-        doTick(); //initial call fills the label
-    }
+	Point lab = new Point(25,255);
+	final Container pan = new Panel();
+	int counter = 0;
 
     public int doTick() {
-        lab.setText(".");
-        if (counter < 40) {
+       if (counter < 40) {
             lab.setLocation(lab.getX() + 5, lab.getY() + 5);
             counter++;
         } else if (counter < 80) {
             lab.setLocation(lab.getX() + 5, lab.getY() - 5);
             counter++;
-        } else if (counter < 120) {
+        } else if ( counter < 120) {
             lab.setLocation(lab.getX() - 5, lab.getY() - 5);
             counter++;
         } else if (counter < 160) {
             lab.setLocation(lab.getX() - 5, lab.getY() + 5);
             counter++;
-        } else {
+        }else{
             counter = 0;
-        }
+        }	
+        pan.repaint();
         return 10;
     }
 
     public Container container() {
-        return lab;
+        return pan;
     }
 
     public String description() {
@@ -48,4 +42,13 @@ public class Burhan_Emanetoglu implements Animator {
     public String author() {
         return "Burhan Emanetoglu";
     }
+    
+    
+   class Panel extends javax.swing.JPanel { //drawing
+      public void paint(Graphics g) {
+            g.clearRect(0, 0, 2*MX, 2*MY);
+            g.setColor(Color.DARK_GRAY);
+            g.fillOval(lab.x,lab.y,10,10);
+            }
+   } 
 }
