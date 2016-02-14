@@ -10,8 +10,8 @@ public class BounceBall_AEO implements Animator {
     Timer timer;
     int xball=10;
     int yball=10;
-    int v_xball=2;
-    int v_yball=2;
+    int v_xball=7;
+    int v_yball=7;
     
     final Container pan = new Panel();
     
