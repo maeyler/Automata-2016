@@ -36,6 +36,7 @@ public class Animation implements Runnable {
         String[] keys = { "no Animator found" };
         if (tryDir(".")) // || tryDir("BLM305") || tryDir("CSE470")) 
             keys = map.keySet().toArray(keys);
+        System.out.println(map.size()+" classes loaded");
         menu = new JComboBox(keys);
        
         pan.setLayout(new BorderLayout(GAP, GAP-4));
