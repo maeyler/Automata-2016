@@ -41,7 +41,7 @@ Buradaki iş akışı şöyle özetlenebilir:
 
 ### Update
 
-Projenin sonunda her öğrenci ana repodan kendi reposunu güncelledi ve [bütün repolar eşitlenmiş oldu] (https://raw.githubusercontent.com/SmallSimpleSafe/Automata/master/images/branch%26merge.png). Aslında repoların hepsi aynı seviyede olduğu için, herhangi biri ile eşitlemek mümkün. Bunun için yazılan bat dosyasını `./accept.bat maeyler` şeklinde çalıştırınca ana repo ile eşitlenmiş oluyor.
+Projenin sonunda her öğrenci ana repodan kendi reposunu güncelledi ve [bütün repolar eşitlenmiş oldu](images/branch%26merge.png). Aslında repoların hepsi aynı seviyede olduğu için, herhangi biri ile eşitlemek mümkün. Bunun için yazılan bat dosyasını `./accept.bat maeyler` şeklinde çalıştırınca ana repo ile eşitlenmiş oluyor.
 
 ![update](images/update.png)
 
