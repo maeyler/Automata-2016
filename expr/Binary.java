@@ -3,7 +3,7 @@ package expr;
 /** Constants and four binary operations are implemented. 
  */
 
-class Binary implements Expression  {
+public class Binary implements Expression  {
    Expression left;  Token oper;  Expression right;
    /** Constructs a binary operation from two Expressions and an operator. 
     */   

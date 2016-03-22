@@ -3,7 +3,7 @@ package expr;
 /** Constants and four binary operations are implemented. 
  */
  
-class Constant implements Expression  {
+public class Constant implements Expression  {
    float num;
    /** Constructs a constant Expression. */   
    public Constant(float n) { num = n; }

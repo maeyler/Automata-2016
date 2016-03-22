@@ -10,12 +10,13 @@ import javax.swing.*;
 
 /**
  * Simple GUI for expressions.
- *
- * 30.08.2002 
- * 23.12.02  package
- * 17.07.03  swing
- * 07.04.13  simplify
- * 15.03.15  scaled font & size
+ * <pre>
+ * 30.08.2002  project started
+ * 23.12.2002  package
+ * 17.07.2003  swing
+ * 07.04.2013  simplify
+ * 15.03.2015  scaled font & size
+ * </pre>
  * @author M A Eyler
  */
  
