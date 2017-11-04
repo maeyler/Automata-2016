@@ -7,7 +7,7 @@
 
 ### Fork & Clone
 
-GitHub iş akışı modellerinden bize en uygun olanı [Fork & Clone](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow). Bu modelde her repo tek daldan ibadet, ama herbiri projenin bir dalını oluşturuyor. Böylece, Git'in branch yapısını kullanmaya gerek kalmadı.
+GitHub iş akışı modellerinden bize en uygun olanı [Fork & Clone](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow). Bu modelde her repo tek daldan ibaret, ama herbiri projenin bir dalını oluşturuyor. Böylece, Git'in branch yapısını kullanmaya gerek kalmadı.
 
 Öğrenci sayısı bir kişinin yönetebileceğinden çok fazla olduğu için birkaç takım lideri gönüllü oldu, diğer öğrenciler liderlerin reposundan kopyaladılar. Ana reponun 32 adet kopyası oldu:
 
